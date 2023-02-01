@@ -1,0 +1,133 @@
+.hot-tours {
+  margin-bottom: 127px;
+}
+
+.hot-tours__title {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  margin-left: 3px;
+  display: flex;
+  align-items: center;
+}
+
+.hot-tours__title::after {
+  content: "";
+  background: url("/../img/flame-icon.png") center center / contain no-repeat;
+  width: 21px;
+  height: 28px;
+  margin-left: 12px;
+
+}
+
+.hot-tours__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hot-tours__item__ul {
+  width: calc(100% / 3 - 18px);
+}
+
+.hot-tours__item {
+  min-height: 449px;
+  background: #fff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hot-tours__cover-box {
+  width: 100%;
+  height: 144px;
+}
+
+.hot-tours__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.hot-tours__content{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  padding: 33px 22px 23px 22px;
+  color: #000;
+}
+
+.hot-tours__title-content {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  margin-bottom: 22px;
+}
+
+.hot-tours__features-list {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 23px;
+  padding-left: 6px;
+  padding-right: 40px;
+}
+
+.hot-tours__features-item:last-child {
+  margin-right: 0;
+}
+
+.hot-tours__feature-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22px;
+  color: #666;
+  display: flex;
+  align-items: center;
+}
+
+.hot-tours__feature-text::before {
+  content: "";
+  height: 26px;
+  width: 26px;
+  margin-right: 10px;
+  background: center center / contain no-repeat;
+}
+
+.hot-tours__feature-text--date::before {
+  background: url("/../img/calendar-icon.png");
+}
+
+.hot-tours__feature-text--meal::before {
+  background: url("/../img/meal-icon.png");
+  width: 36px;
+}
+
+.hot-tours__desc {
+  color: #303030;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 24px;
+}
+
+.hot-tours__btn-wrapper {
+  display: flex;
+  justify-content: flex-start;
+  margin-top: auto;
+}
+
+.btn-white {
+  color:  #F5170E;
+  display: inline-block;
+  background:  #fff;
+  border: 1px solid #F5170E;
+  border-radius: 35px;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19px;
+  padding: 18px 30px;
+}
+
+.hot-tours__btn {
+  padding: 18px 30px;
+}

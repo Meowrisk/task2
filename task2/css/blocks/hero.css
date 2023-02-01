@@ -1,0 +1,39 @@
+.hero__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 774px;
+}
+
+.hero__content{
+  margin-bottom: 245px;
+}
+
+.hero__text-section {
+  width: 45%;
+  min-height: 333px;
+}
+
+.hero__title {
+  font-size: 72px;
+  font-weight: bold;
+  margin-bottom: 27.5px;
+  line-height: 98px;
+}
+
+.hero__subtitle {
+  font-size: 18px;
+  line-height: 20px;
+  margin-bottom: 34.5px;
+}
+
+.hero__btn {
+  font-size: 14px;
+  line-height: 19px;
+  display: inline-block;
+  background: #F5170E;
+  border-radius: 35px;
+  padding: 18px 41px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
