@@ -8,7 +8,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+    integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./main.css">
   <title>AirAsia | Main Page</title>
 </head>
@@ -32,7 +34,7 @@
                   <a href="./services.html" class="menu__link">Услуги</a>
                 </li>
                 <li class="menu__item">
-                  <a href="" class="menu__link">Отзывы</a>
+                  <a href="./reviews.html" class="menu__link">Отзывы</a>
                 </li>
               </ul>
             </nav>
@@ -40,7 +42,15 @@
           <div class="header__col header__col--align--right">
             <address class="contacts header__contacts">
               <a href="tel:+78007003030" class="contacts__phone">8 800 700 30 30</a>
-              <div class="contacts__dropdown-title">График работы</div>
+              <div class="contacts__dropdown">
+                <div class="contacts__dropdown-title">График работы</div>
+                <div class="contacts__dropdown-menu">
+                  <ul class="contacts__dropdown-list">
+                    <li class="contacts__dropdown-item contacts__dropdown-item--bold">пн-вс: 09:00 - 20:00</li>
+                    <li class="contacts__dropdown-item">Обед: 14:00-14:30</li>
+                  </ul>
+                </div>
+              </div>
             </address>
           </div>
         </header>
@@ -48,7 +58,7 @@
           <div class="hero__text-section">
             <h1 class="hero__title">Авторские туры по Азии</h1>
             <p class="hero__subtitle">Открой для себя Азию</p>
-            <a href="#" class="hero__btn">Подробнее</a>
+            <a href="#" class="hero__btn btn-red">Подробнее</a>
           </div>
         </div>
       </div>
@@ -198,43 +208,43 @@
       <div class="container footer-container__content">
         <div class="footer footer-container__section">
           <div class="footer__col">
-          <a href="./index.html" class="logo footer__logo">
-            <img src="./img/logo.png" alt="AirAsia" class="logo__img">
-          </a>
-          <nav class="menu footer__menu">
-            <ul class="menu__list">
-              <li class="menu__item">
-                <a href="./index.html" class="menu__link">Главная</a>
+            <a href="./index.html" class="logo footer__logo">
+              <img src="./img/logo.png" alt="AirAsia" class="logo__img">
+            </a>
+            <nav class="menu footer__menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="./index.html" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="./services.html" class="menu__link">Услуги</a>
+                </li>
+                <li class="menu__item">
+                  <a href="" class="menu__link">Отзывы</a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+          <div class="footer__col footer__col--align--right">
+            <ul class="socials">
+              <li class="socials__item socials__item--icon--tg">
+                <a href="#" class="socials__link" target="_blank"></a>
               </li>
-              <li class="menu__item">
-                <a href="./services.html" class="menu__link">Услуги</a>
+              <li class="socials__item socials__item--icon--vk">
+                <a href="#" class="socials__link" target="_blank"></a>
               </li>
-              <li class="menu__item">
-                <a href="" class="menu__link">Отзывы</a>
+              <li class="socials__item socials__item--icon--fb">
+                <a href="#" class="socials__link" target="_blank"></a>
+              </li>
+              <li class="socials__item socials__item--icon--ig">
+                <a href="#" class="socials__link" target="_blank"></a>
               </li>
             </ul>
-          </nav>
-        </div>
-        <div class="footer__col footer__col--align--right">
-          <ul class="socials">
-            <li class="socials__item socials__item--icon--tg">
-              <a href="#" class="socials__link" target="_blank"></a>
-            </li>
-            <li class="socials__item socials__item--icon--vk">
-              <a href="#" class="socials__link" target="_blank"></a>
-            </li>
-            <li class="socials__item socials__item--icon--fb">
-              <a href="#" class="socials__link" target="_blank"></a>
-            </li>
-            <li class="socials__item socials__item--icon--ig">
-              <a href="#" class="socials__link" target="_blank"></a>
-            </li>
-          </ul>
-          <address class="contacts footer__contacts">
-            <div class="contacts__desc footer__contacts__desc">Бесплатный звонок по России</div>
-            <a href="tel:+78007003030" class="contacts__phone footer__contacts__phone">8 800 700 30 30</a>
-          </address>
-        </div>
+            <address class="contacts footer__contacts">
+              <div class="contacts__desc footer__contacts__desc">Бесплатный звонок по России</div>
+              <a href="tel:+78007003030" class="contacts__phone footer__contacts__phone">8 800 700 30 30</a>
+            </address>
+          </div>
         </div>
       </div>
     </footer>

@@ -12,7 +12,7 @@
   width: 490px;
   height: 505px;
   border-radius: 5px;
-  background: url("/../img/gates.png") center center / cover no-repeat;
+  background: url(../../img/gates.png) center center / cover no-repeat;
 }
 
 .about-us__btn {
@@ -27,7 +27,7 @@
 }
 
 .about-us__content {
-  background: url("/../img/mountains.png") center center / cover no-repeat;
+  background: url(../../img/mountains.png) center center / cover no-repeat;
   padding: 70px 202px 66px 81px;
   border-radius: 5px;
   vertical-align: top;

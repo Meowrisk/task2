@@ -13,7 +13,7 @@
 
 .hot-tours__title::after {
   content: "";
-  background: url("/../img/flame-icon.png") center center / contain no-repeat;
+  background: url("../../img/flame-icon.png") center center / contain no-repeat;
   width: 21px;
   height: 28px;
   margin-left: 12px;
@@ -93,11 +93,11 @@
 }
 
 .hot-tours__feature-text--date::before {
-  background: url("/../img/calendar-icon.png");
+  background: url("../../img/calendar-icon.png");
 }
 
 .hot-tours__feature-text--meal::before {
-  background: url("/../img/meal-icon.png");
+  background: url("../../img/meal-icon.png");
   width: 36px;
 }
 
@@ -126,6 +126,10 @@
   font-size: 14px;
   line-height: 19px;
   padding: 18px 30px;
+}
+
+.btn-white--active {
+  color: #fff;
 }
 
 .hot-tours__btn {

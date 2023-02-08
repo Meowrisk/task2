@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   padding-bottom: 23.5px;
-  background: url("/../img/bg-services.png") right 50% top no-repeat;
+  background: url(../../img/bg-services.png) right 50% top no-repeat;
   margin-bottom: 98px;
 }
 

@@ -1,4 +1,4 @@
-.hero__btn {
+.btn-red {
   font-size: 14px;
   line-height: 19px;
   display: inline-block;
@@ -7,6 +7,23 @@
   padding: 18px 41px;
   text-transform: uppercase;
   font-weight: bold;
+  color: #fff;
+}
+
+.btn-black {
+  font-size: 14px;
+  line-height: 19px;
+  display: inline-block;
+  background:#8E8E8E;
+  border-radius: 35px;
+  padding: 18px 41px;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: #fff;
+}
+
+.btn-black:hover {
+  background: #8E8E8E;
 }
 
 .btn-white {
@@ -29,6 +46,7 @@
 .btn-white:hover {
   color: #fff;
   background: #F5170E;
+  transition: .3s;
 }
 
 .btn-white--active {
@@ -53,4 +71,21 @@
 
 .btn-white--active {
   background: #F5170E;
+}
+
+.welcome__btn {
+  padding: 18px 60px;
+}
+
+.forms__btns {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.form__btn {
+  margin-right: 20px;
+}
+
+.form__btn:last-child {
+  margin-right: 0;
 }

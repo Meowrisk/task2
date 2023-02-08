@@ -26,14 +26,3 @@
   line-height: 20px;
   margin-bottom: 34.5px;
 }
-
-.hero__btn {
-  font-size: 14px;
-  line-height: 19px;
-  display: inline-block;
-  background: #F5170E;
-  border-radius: 35px;
-  padding: 18px 41px;
-  text-transform: uppercase;
-  font-weight: bold;
-}

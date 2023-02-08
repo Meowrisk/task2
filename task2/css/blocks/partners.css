@@ -3,7 +3,7 @@
   color: #1A1B1E;
 }
 
-.partners--bg--grey {
+.inner--bg--grey {
   background: #F4F5F5;
 }
 
@@ -36,6 +36,7 @@
 
 .partners__item:hover {
   filter: grayscale(0);
+  transition: .3s;
 }
 
 .partners__item:nth-child(4n + 1) {

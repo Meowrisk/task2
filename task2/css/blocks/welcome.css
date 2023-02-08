@@ -1,0 +1,63 @@
+.welcome {
+  background: url("../../img/shades.png") center top 35% no-repeat, url("../../img/bg-welcome.png") center bottom / cover no-repeat;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;        
+  align-items: center;
+  justify-content: center;
+}
+
+.welcome__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  opacity: 0;
+  animation: beats 1.5s .7s forwards ease-out;
+}
+
+.welcome__desc {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 25px;
+  margin-bottom: 47px;
+}
+
+.welcome__btn {
+  padding: 18px 60px;
+}
+
+.welcome__btn:hover {
+  background-color: #DA0100;
+  transition: .9s;
+}
+
+@keyframes beats{
+  0% {
+    transform: scale(.7);
+  }
+
+  20% {
+    transform: scale(1.2);
+  }
+
+  40% {
+    transform: scale(.7);
+    opacity: 1;
+  }
+
+  60% {
+    transform: scale(1.2);
+  }
+
+  80% {
+    transform: scale(.7);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
