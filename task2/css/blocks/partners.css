@@ -32,11 +32,11 @@
 .partners__item {
   margin-left: 79px;
   filter: grayscale(100%);
+  transition: filter .3s;
 }
 
 .partners__item:hover {
   filter: grayscale(0);
-  transition: .3s;
 }
 
 .partners__item:nth-child(4n + 1) {

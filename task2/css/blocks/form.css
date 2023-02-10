@@ -1,19 +1,24 @@
 .form__row {
   display: flex;
-  margin-bottom: 30px;
+  margin-bottom: 26px;
 }
 
 .form__input {
   flex: 1;
   margin-right: 25px;
   border-radius: 4px;
-  border: none;
+  border: 1px solid transparent;
   background: #fff;
-  padding: 22px 30px;
+  padding: 20px 30px;
   font-weight: 400;
   font-size: 18px;
   line-height: 25px;
   color: #1A1B1E;
+}
+
+.form__input:focus {
+  border-color: #F5170E;
+  outline: 0;
 }
 
 .form__input::placeholder{
@@ -26,11 +31,13 @@
 
 .form__input--textarea {
   height: 232px;
+  resize: none;
+  padding-top: 26px;
 }
 
 .form__controls {
   display: flex;
-  margin-bottom: 35px;
+  margin-bottom: 30px;
 }
 
 .form__controls-title {
@@ -39,6 +46,8 @@
   font-size: 18px;
   line-height: 25px;
   color: #1A1B1E;
+  padding-top: 10px;
+  margin-right: 27px;
 }
 
 .forms__btns {

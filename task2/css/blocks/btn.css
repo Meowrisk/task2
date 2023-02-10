@@ -8,6 +8,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
+  transition: background .3s, color .3s, border-color .3s;
 }
 
 .btn-black {
@@ -20,6 +21,7 @@
   text-transform: uppercase;
   font-weight: bold;
   color: #fff;
+  transition: background .3s, color .3s, border-color .3s;
 }
 
 .btn-black:hover {
@@ -37,16 +39,17 @@
   font-size: 14px;
   line-height: 19px;
   padding: 18px 30px;
+  transition: background .3s, color .3s, border-color .3s;
 }
 
 .hot-tours__btn {
   padding: 18px 30px;
+  transition: background .3s, color .3s, border-color .3s;
 }
 
 .btn-white:hover {
   color: #fff;
   background: #F5170E;
-  transition: .3s;
 }
 
 .btn-white--active {
@@ -63,6 +66,7 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 19px;
+  transition: background .3s, color .3s, border-color .3s;
 }
 
 .services__btn {

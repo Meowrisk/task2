@@ -1,5 +1,5 @@
 .welcome {
-  background: url("../../img/shades.png") center top 35% no-repeat, url("../../img/bg-welcome.png") center bottom / cover no-repeat;
+  background: url("../../img/shades.png") center top 42% no-repeat, url("../../img/bg-welcome.png") center bottom / cover no-repeat;
   display: flex;
   position: absolute;
   top: 0;
@@ -27,11 +27,11 @@
 
 .welcome__btn {
   padding: 18px 60px;
+  transition: background-color .3s;
 }
 
 .welcome__btn:hover {
   background-color: #DA0100;
-  transition: .9s;
 }
 
 @keyframes beats{

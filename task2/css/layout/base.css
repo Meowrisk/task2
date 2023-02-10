@@ -88,3 +88,8 @@ body, html {
   color: #1A1B1E;
   margin-bottom: 57px;
 }
+
+.inner--reviews {
+  margin-bottom: 0;
+  padding: 65px 0 99px;
+}

@@ -4,11 +4,10 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-bottom: 64px;
 }
 
 .separator__content {
-  max-width: 50%;
+  max-width: 53%;
 }
 
 .separator__title {

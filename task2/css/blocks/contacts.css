@@ -20,11 +20,11 @@
   line-height: 1;
   text-decoration: underline;
   color: #98A4A8;
+  transition: color .3s;
 }
 
 .contacts__dropdown-title:hover {
   color: #fff;
-  transition: .3s;
 }
 
 .contacts__dropdown:hover .contacts__dropdown-menu {
