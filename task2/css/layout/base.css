@@ -78,7 +78,7 @@ body, html {
 }
 
 .inner-section {
-  margin-bottom: 96px;
+  padding: 65px 0 99px 0;
 }
 
 .inner-section__title {
@@ -87,9 +87,4 @@ body, html {
   line-height: 65px;
   color: #1A1B1E;
   margin-bottom: 57px;
-}
-
-.inner--reviews {
-  margin-bottom: 0;
-  padding: 65px 0 99px;
 }
